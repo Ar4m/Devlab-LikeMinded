@@ -1,5 +1,5 @@
 .topbarContainer {
-  height: 50px;
+  height: 70px;
   width: 100%;
   background-color: #1877f2;
   display: flex;
@@ -10,7 +10,7 @@
 }
 
 .topbarLeft {
-  flex: 3;
+  flex: 4;
 }
 
 .logo {
@@ -23,6 +23,10 @@
 
 .topbarCenter {
   flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
 }
 
 .searchbar {
@@ -49,7 +53,7 @@
 }
 
 .topbarRight {
-  flex: 4;
+  flex: 5;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -70,6 +74,11 @@
   margin-right: 15px;
   cursor: pointer;
   position: relative;
+}
+
+.topbarIconItemCenter {
+  display: flex;
+  justify-content: center;
 }
 
 .topbarIconBadge {
